@@ -7,6 +7,11 @@
   "author": "Johannes Scharlach <johannes.scharlach@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^22.1.4",
     "johanness-scripts": "^2.0.0"
-  }
+  },
+  "dependencies": {
+    "node-fetch": "^2.0.0"
+  },
+  "files": ["index.js"]
 }
