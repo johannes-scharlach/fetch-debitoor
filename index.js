@@ -10,5 +10,5 @@ module.exports = accessToken => (url, options = {}) => {
   if (url.startsWith('/')) {
     url = baseUrl + url
   }
-  return fetch(url, { ...options, headers })
+  return fetch(url, Object.assign({}, options, { headers }))
 }
