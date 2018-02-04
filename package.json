@@ -1,6 +1,6 @@
 {
   "name": "fetch-debitoor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small fetch-like interface that wraps the debitoor API",
   "main": "index.js",
   "repository": "git@github.com:johannes-scharlach/fetch-debitoor.git",
@@ -13,5 +13,7 @@
   "dependencies": {
     "node-fetch": "^2.0.0"
   },
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
